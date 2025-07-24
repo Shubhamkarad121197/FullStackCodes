@@ -1,0 +1,13 @@
+
+let sentence = "I love JavaScript";
+// Split the sentence into an array of words and print array.
+
+let splittedArr=sentence.split(' ');
+console.log(splittedArr)
+
+
+// Task 2: Join
+
+// Join the array of words into a new string where each word is separated by a dash (-) and
+let joined=splittedArr.join('-');
+console.log(joined)
